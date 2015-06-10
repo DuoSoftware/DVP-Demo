@@ -1,0 +1,27 @@
+start 	 - {"session":"a618f782-94f6-11e4-b959-777e688421ed","direction":"inbound","ani":"0112025210","dnis":"0112025210","name":"unknown","result":"none"} - 2015-01-05 11:16:38
+start 	  result  	 - none - 2015-01-05 11:16:38
+start 	  session 	 - a618f782-94f6-11e4-b959-777e688421ed - 2015-01-05 11:16:38
+start 	  ani 	 - 0112025210 - 2015-01-05 11:16:38
+start 	  dnis 	 - 0112025210 - 2015-01-05 11:16:38
+start 	  callerdirection  	 - inbound - 2015-01-05 11:16:38
+start 	  calleridname 	 - unknown - 2015-01-05 11:16:38
+start 	 callString  	 - {"action": "setdtmf","nexturl": "http://192.168.1.195/LassanaFloraIVR/menu.php","dtmftype": "inband"} - 2015-01-05 11:16:38
+menu
+menu 	 - {"session":"a618f782-94f6-11e4-b959-777e688421ed","direction":"inbound","ani":"0112025210","dnis":"0112025210","name":"unknown","result":"none"} - 2015-01-05 11:16:39
+menu 	  result  	 - none - 2015-01-05 11:16:39
+menu 	  session 	 - a618f782-94f6-11e4-b959-777e688421ed - 2015-01-05 11:16:39
+menu 	  ani 	 - 0112025210 - 2015-01-05 11:16:39
+menu 	  dnis 	 - 0112025210 - 2015-01-05 11:16:39
+menu 	  callerdirection  	 - inbound - 2015-01-05 11:16:39
+menu 	  calleridname 	 - unknown - 2015-01-05 11:16:39
+menu 	 callString  	 - {"action": "playandgetdigits","file": "lassanaflora/ivr-lassanaflora.wav","nexturl": "http://192.168.1.195/LassanaFloraIVR/Process.php","result": "result","errorfile": "","digittimeout": "20","inputtimeout": "100","loops": "3","terminator": "#","strip": "#","maxdigits": "3","digits": "1"} - 2015-01-05 11:16:39
+Process.php  >>>>>>>>>>>321321>>>>>>>>>>>>> - {"session":"a618f782-94f6-11e4-b959-777e688421ed","direction":"inbound","ani":"0112025210","dnis":"0112025210","name":"unknown","result":"2"} - 2015-01-05 11:16:59
+Process.php 	 result 	 - 2 - 2015-01-05 11:16:59
+Process.php 	 session 	 - a618f782-94f6-11e4-b959-777e688421ed - 2015-01-05 11:16:59
+Process.php 	 ani 	 - 0112025210 - 2015-01-05 11:16:59
+Process.php 	 dnis 	 - 0112025210 - 2015-01-05 11:16:59
+Process.php 	 callerdirection 	 - inbound - 2015-01-05 11:16:59
+Process.php 	 calleridname 	 - unknown - 2015-01-05 11:16:59
+Process.php >>>>>>>>>>>>>>>>>>>>>>>> -  - 2015-01-05 11:16:59
+ProcessIVR>>>>>>>>>>>case 0 >>>>>>>>> -{"action": "dial","nexturl": "http://192.168.1.195/LassanaFloraIVR/end.php","context": "155_156_lf","dialplan": "XML","callername": "0112025210","callernumber": "0112025210","number": "0112641559"}  - 2015-01-05 11:16:59
+ProcessIVR 	 Process.php 	 -{"action": "dial","nexturl": "http://192.168.1.195/LassanaFloraIVR/end.php","context": "155_156_lf","dialplan": "XML","callername": "0112025210","callernumber": "0112025210","number": "0112641559"}  - 2015-01-05 11:16:59
