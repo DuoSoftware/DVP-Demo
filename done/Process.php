@@ -83,7 +83,7 @@ Class ProcessIVR
                             break;
                                              
                             default:
-                                $string = $this->PlayVoiceFilevoice("premadasagems/ivr-lassanaflora_invalid_extension.wav");
+                                $string = $this->PlayVoiceFilevoice("done/ivr-lassanaflora_invalid_extension.wav");
                                 return $string;
                         }
                     
