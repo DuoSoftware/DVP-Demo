@@ -50,35 +50,35 @@ Class ProcessIVR
                     switch ($result)
                         {
                             case 0:
-                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/don/end.php","default","XML",$ani,$ani,"0");        
+                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/done/end.php","default","XML",$ani,$ani,"0");        
                                 return $string;
                             
                             break;
                             
                             case 1:
-                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/don/end.php","default","XML",$ani,$ani,"1");        
+                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/done/end.php","default","XML",$ani,$ani,"1");        
                                 return $string;
                             break;
                             
                             case 2:
-                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/don/end.php","default","XML",$ani,$ani,"2");        
+                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/done/end.php","default","XML",$ani,$ani,"2");        
                                 return $string;
                             
                             break;
                             
                             case 3:
-                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/don/end.php","default","XML",$ani,$ani,"3");        
+                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/done/end.php","default","XML",$ani,$ani,"3");        
                                 return $string;
                             break;
                             
                             case 4:
-                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/don/end.php","default","XML",$ani,$ani,"4");        
+                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/done/end.php","default","XML",$ani,$ani,"4");        
                                 return $string;
                             
                             break;
                             
                             case 5:
-                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/don/end.php","default","XML",$ani,$ani,"5");        
+                                $string = $this->DialExtension("http://45.55.179.9/DVP-Demo/done/end.php","default","XML",$ani,$ani,"5");        
                                 return $string;
                             break;
                                              
@@ -93,7 +93,7 @@ Class ProcessIVR
                 else
                 {
 
-                    $string= '{"action": "hangup","cause": "NORMAL_CLEAN","nexturl": "http://45.55.179.9/DVP-Demo/don/end.php"}';
+                    $string= '{"action": "hangup","cause": "NORMAL_CLEAN","nexturl": "http://45.55.179.9/DVP-Demo/done/end.php"}';
                         return $string;
                 } 
                

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @author Das
+ * @author Dasitha
  * @copyright 2015
  */
 
